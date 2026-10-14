@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8f5">
-  <meta name="description" content="李保龙（Edison Lee）的学术简历：从复杂系统表征与机制发现，走向证据驱动的智能体决策与人机协同指挥。">
+  <meta name="description" content="李保龙（Edison Lee）的学术简历：围绕复杂系统表征、干预推演、机制证据与持续决策展开研究。">
   <title>李保龙 · 学术简历</title>
   <link rel="alternate" hreflang="zh-CN" href="index.html">
   <link rel="alternate" hreflang="en" href="en.html">
@@ -66,11 +66,10 @@
       <section class="content-section route-section" id="route" aria-labelledby="route-title">
         <div class="section-intro"><h2 id="route-title">研究路线</h2></div>
         <div class="route-essay">
-          <p class="route-lead">研究聚焦动态复杂系统中的可信决策：从多源数据中识别当前状态，推演干预的可能后果，核查机制与证据，并在持续变化的任务中形成可由人审查、修正的行动建议。</p>
-          <p>可靠的态势判断始于表征。<a href="#work-omnicell">OmniCell</a> 将单细胞表达和组织空间邻域纳入统一建模，尝试在基因、细胞与组织层面建立可比较的表示；<a href="#work-goformer">GOformer</a> 进一步区分细胞、基因与 GO 功能表示的读出，考察不同层次的信息如何服务下游任务。<a href="#work-sparse">SPARSE</a> 则从冻结的转录组表征出发，用坐标感知的多尺度空间适配和表达重建约束，让模型同时保留细胞分子身份与组织环境。相关工作分别涉及 OmniCell 的基线构建和评估、GOformer 的读出与比较方案设计，以及 SPARSE 从问题提出到论文写作的几乎全程主导。</p>
-          <p>状态表征回答“系统现在如何”，行动决策还需考虑“改变之后会怎样”。<a href="#work-dynperturb">DynPerturb</a> 在动态细胞与空间系统中共同刻画干预时间、强度和位置，通过时序图、空间邻接与记忆模块追踪调控重连及反馈。参与其中的数据分析、模型评估和消融研究，也促使这条路线从静态观察延伸到候选干预窗口的推演。但预测本身仍需解释：<a href="#work-biomics">BiOmics</a> 以显式知识关系、潜在表示和专业工具组织“检索—推理—预测”的机制链；<a href="#work-discovery">BiOmics Discovery</a> 将候选发现与独立核验分开，明确支持证据、反向证据与尚待验证的缺口。这两项工作主要围绕研究框架、证据组织和验证路径设计展开。</p>
-          <p>当决策进入长程任务，证据还必须随新观察持续更新。<a href="#work-evostate">EvoState</a> 把执行轨迹、历史事件和当前任务状态分开维护，使关键引用与未完成要求能进入下一步判断；在<a href="#work-legal">法律 Agent</a> 工作中，自然语言里的主体、条件、义务与例外被整理为可计算、可追溯的约束。<a href="#work-aep">AEP-ECRG</a> 则把问题推进到证据不足时的主动取证：比较继续调查与立即行动的成本和风险，并用证据前提约束高影响行动。这些研究主要围绕状态更新、规则表达、主动取证与治理框架的构想和设计。</p>
-          <p>这条路线最终指向<strong>人机协同指挥</strong>：机器整合态势、预测后果、标明证据来源和不确定性，并提出可比较的调查或行动选项；人设定目标、权限和风险边界，审查依据并决定关键行动。下一阶段的核心是把表征、推演、机制核验、任务记忆和主动取证放入同一任务闭环，检验建议能否被追问、纠错和持续更新。</p>
+          <p class="route-lead">研究生阶段的工作从细胞表征中的一个具体缺口展开：表达数据能够描述细胞内部状态，却难以独自说明它在组织中的位置和邻域。参与<a href="#work-omnicell">OmniCell</a> 时，负责基线模型构建、数据分析与评估，比较空间信息加入后哪些任务真正受益；在<a href="#work-goformer">GOformer</a> 中设计不同层次表示的读出与对照方案，区分预训练表示本身与下游优化的增益。这些工作让“模型究竟保留了什么信息”成为更明确的问题。为此，<a href="#work-sparse">SPARSE</a> 将空间邻域引入冻结的转录组表征，同时用表达重建约束分子语义；从问题提出、方法设计到实验与论文写作，几乎全程主导。</p>
+          <p>表征清楚当前状态之后，还需要知道干预会改变什么。在<a href="#work-dynperturb">DynPerturb</a> 中参与数据分析、模型评估与消融研究，考察干预的时间、强度和位置如何影响细胞状态及调控关系。这段工作让预测与证据的关系变得更加重要：一个看似合理的结果，也要说得清可能的机制、找得到独立支持。<a href="#work-biomics">BiOmics</a> 的主要投入因此放在整体研究框架设计上，安排知识关系、模型表示与专业工具如何组成可追溯的推理路径；在<a href="#work-discovery">BiOmics Discovery</a> 中，则主导候选固定、证据分级与验证路径的设计，使反向结果也能进入判断。</p>
+          <p>同样的证据问题也出现在持续行动的智能体中：新观察不断到来，旧结论可能失效，关键约束却不能丢。参与<a href="#work-evostate">EvoState</a> 的研究构想和状态机制设计，重点是区分执行轨迹、历史事件与当前要求，使下一步行动有可靠的上下文。北京大学法学院的<a href="#work-legal">法律 Agent</a> 工作把自然语言中的条件、义务和例外整理为可计算的规则。<a href="#work-aep">AEP-ECRG</a> 进一步提出主动取证的研究框架：当依据不足时，比较继续调查的价值与成本，并以明确的证据前提约束高影响行动。</p>
+          <p>这条路线关注的始终是判断如何经得起追问。在信息不完整、目标和环境不断变化的任务中，模型给出的建议需要附带来源、不确定性与尚待核查的问题；调查和行动方案也应能够并列比较，并随新证据修订。下一阶段将把表征、后果推演、机制证据与任务记忆放进同一流程，让复杂情境中的选择有据可查、留有调整余地。</p>
         </div>
       </section>
 
