@@ -55,3 +55,29 @@ img{display:block;max-width:100%}
 @media print{.profile-overline,.profile-identity h1,.profile-en,.profile-affiliation,.profile-description,.profile-facts span,.contact-list a span,.contact-list a strong{color:#202b28}.profile-facts span,.contact-list,.contact-list a{border-color:#d5ddd3}.research-section .section-intro{margin-bottom:8px}.research-thesis{padding:7px 0}.research-thesis span,.path-label{font-size:7pt}.research-thesis p{font-size:8pt;line-height:1.4;margin-top:3px}.research-path{margin-top:14px;padding-left:24px}.path-step{padding-bottom:12px;break-inside:avoid}.path-index{left:-41px;width:28px;height:28px;font-size:9pt}.path-content h3{font-size:10pt;margin-bottom:3px}.path-content>p:not(.path-label){font-size:7.5pt;line-height:1.45}.path-content .path-evidence{font-size:7pt;margin-top:5px;padding-top:4px}.path-destination .path-content{padding:8px 10px}.education-list p{line-height:1.4;margin-top:2px}}
 @media print{.project-detail{padding:9px 0;break-inside:avoid}.project-heading h3{font-size:11pt}.project-kicker,.project-subtitle{font-size:7pt}.project-detail>p:not(.project-subtitle){font-size:7.5pt;line-height:1.45;margin-top:4px}.paper-figure{display:none}.route-section .section-intro{margin-bottom:8px}}
 @media print{.education-card{grid-template-columns:55px 1fr;gap:9px;padding:7px 0;break-inside:avoid}.education-stage,.education-mark,.education-topics span{font-size:7pt}.education-body h3{font-size:8pt;margin-bottom:2px}.education-body>p{font-size:7pt;line-height:1.4;margin-bottom:3px}.education-topics{margin-top:4px;gap:3px}.education-topics span{padding:1px 4px}.path-step{padding-bottom:14px}.path-content .path-question{padding:4px 6px;margin-bottom:5px}.path-content .path-role,.path-content .path-bridge,.path-destination .path-content .path-projects,.path-destination .path-content .path-role{margin-top:5px}.path-content .path-bridge{font-size:7pt;padding-top:4px}.path-destination .path-content{padding:8px 10px}}
+
+/* A continuous research narrative replaces the segmented trajectory. */
+.route-section .section-intro{margin-bottom:20px}
+.route-essay{max-width:720px}
+.route-essay p{margin:0;color:#4b5d51;font-size:14px;line-height:1.95}
+.route-essay p+p{margin-top:22px}
+.route-essay .route-lead{font-size:16px;line-height:1.85;color:#294a36}
+.route-essay strong{color:#1f533a;font-weight:700}
+.route-essay a{color:#245b40;text-decoration:underline;text-decoration-color:#a9c4ae;text-underline-offset:3px;font-weight:600}
+.route-essay a:hover{text-decoration-color:#245b40}
+.project-detail>p:not(.project-subtitle){font-size:13.5px;line-height:1.9;margin-top:15px}
+.project-detail>p:not(.project-subtitle)+p:not(.project-subtitle){margin-top:12px}
+@media screen{.profile-panel .contact-list{margin-top:26px}}
+@media(max-width:620px){.route-essay p{font-size:13.5px;line-height:1.85}.route-essay .route-lead{font-size:15px}.route-essay p+p{margin-top:18px}.project-detail>p:not(.project-subtitle){font-size:13px}}
+@media print{.route-essay p,.route-essay .route-lead{font-size:7.5pt;line-height:1.45;color:#293b30}.route-essay p+p{margin-top:5px}.project-detail>p:not(.project-subtitle){font-size:7.5pt;line-height:1.45;margin-top:4px}.project-detail{break-inside:auto}}
+
+/* Education reads as two short entries, without tags or framed callouts. */
+.education-list{border:0}
+.education-card,.education-card:last-child{display:block;border:0;padding:0;margin:0 0 31px}
+.education-card:last-child{margin-bottom:0}
+.education-side{display:block;margin:0 0 7px;padding:0}
+.education-stage{font-size:11px;letter-spacing:.06em}
+.education-body h3{font-size:18px;line-height:1.5;margin:0 0 9px}
+.education-body>p{font-size:14px;line-height:1.9;margin:0;color:#526259}
+@media(max-width:620px){.education-card,.education-card:last-child{padding:0;margin-bottom:27px}.education-card:last-child{margin-bottom:0}.education-body h3{font-size:16px}.education-body>p{font-size:13.5px;line-height:1.85}}
+@media print{.education-card,.education-card:last-child{margin-bottom:10px;padding:0;break-inside:avoid}.education-body h3{font-size:8pt;margin:0 0 2px}.education-body>p{font-size:7.5pt;line-height:1.45}}
