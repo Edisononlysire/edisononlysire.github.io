@@ -84,3 +84,5 @@ img{display:block;max-width:100%}
 
 
 .status a{text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:2px}
+
+@media screen and (max-width:750px){.profile-panel .contact-list{grid-template-columns:1fr;gap:0}}
