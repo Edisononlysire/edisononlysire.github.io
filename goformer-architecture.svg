@@ -4,6 +4,9 @@
   <text x="70.2" y="51.9" font-size="6.0">Gene ID embedding +</text>
   <text x="70.2" y="58.6" font-size="6.0">gene expression embedding</text>
 
+  <rect x="26" y="86.2" width="89" height="10.4" fill="#fff"/>
+  <text x="70.2" y="94.1" font-size="6.1">Gene ID + expression embeddings</text>
+
   <rect x="50" y="184.1" width="46" height="9.2" fill="#EEF8FA"/>
   <text x="70.2" y="191" font-size="6.2">Gene-to-GO graph encoder</text>
 
