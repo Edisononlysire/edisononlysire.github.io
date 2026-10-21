@@ -81,3 +81,5 @@ img{display:block;max-width:100%}
 .education-body>p{font-size:14px;line-height:1.9;margin:0;color:#526259}
 @media(max-width:620px){.education-card,.education-card:last-child{padding:0;margin-bottom:27px}.education-card:last-child{margin-bottom:0}.education-body h3{font-size:16px}.education-body>p{font-size:13.5px;line-height:1.85}}
 @media print{.education-card,.education-card:last-child{margin-bottom:10px;padding:0;break-inside:avoid}.education-body h3{font-size:8pt;margin:0 0 2px}.education-body>p{font-size:7.5pt;line-height:1.45}}
+
+.status a{text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:2px}
